@@ -1,0 +1,32 @@
+{
+  "name": "magic_muffin",
+  "version": "1.0.0",
+  "description": "a simple ecommerce app with sequelize",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0"
+  },
+  "scripts": {
+    "test": "npm jest",
+    "start": "node server.js",
+    "seed": "./seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-j-hodges/magic-muffin.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "sequelize"
+  ],
+  "author": "Matt Hodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-j-hodges/magic-muffin/issues"
+  },
+  "homepage": "https://github.com/m-j-hodges/magic-muffin#readme"
+}
